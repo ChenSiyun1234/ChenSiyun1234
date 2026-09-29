@@ -9,7 +9,7 @@ Mostly firmware in C for STM32 and CC3200 microcontrollers. I also do PCB layout
 ## Projects
 
 - **[CC3200 self-balancing cart](https://github.com/ChenSiyun1234/cc3200-balancing-cart)**: bare-metal C firmware that started as my EEC 172 final project. I later moved its fault rules into a module with 27 host unit tests and CI.
-- **[BalanceBot](https://github.com/ChenSiyun1234/BalanceBot-STM32-CC3200/blob/main/STM32/Robot/ax_control.c)**: I ported a vendor's 100 Hz balancing controller to an STM32F103. I wrote the motor driver and the Bluetooth commands around it.
+- **[BalanceBot](https://github.com/ChenSiyun1234/BalanceBot-STM32-CC3200)**: I ported a vendor's 100 Hz balancing controller to an STM32F103. I wrote the motor driver and the Bluetooth commands around it.
 - **[Satellite sensor monitor](https://github.com/Space-and-Satellite-Systems-UC-Davis/IntelliSat/pull/117)**: I wrote a sensor monitor in C for my club's STM32L476 flight software. It streams 50 sensor channels as CSV over UART.
 - **[Rover control board layout](https://github.com/SSS-Controls/Rover_Contest-Electrical_Subteam/tree/S_C/single_board/images)**: I completed a four-layer KiCad layout of the rover's STM32 control board, routing six motor/encoder channels and the 3.3 V/5 V power.
 - **[FPGA matrix accelerator](https://github.com/ChenSiyun1234/eec180-fpga-matrix-accelerator)**: a signed 8x8 matrix multiply in Verilog (EEC 180). Going from one to four MAC units cut it from 513 to 134 clock cycles in ModelSim.
