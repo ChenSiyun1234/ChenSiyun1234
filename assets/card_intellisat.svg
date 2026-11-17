@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 230" width="600" height="230" role="img" aria-label="IntelliSat">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1826"/>
+      <stop offset="1" stop-color="#123049"/>
+    </linearGradient>
+    <clipPath id="frame"><rect x="1" y="1" width="598" height="228" rx="18"/></clipPath>
+    <style>text { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }</style>
+  </defs>
+  <rect x="1" y="1" width="598" height="228" rx="18" fill="url(#bg)" stroke="#234a66"/>
+  <g clip-path="url(#frame)">
+    <path d="M600,196 L520,196 L502,214 L440,214" fill="none" stroke="#1d4a6b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="440" cy="214" r="4.4" fill="#0a1826" stroke="#1d4a6b" stroke-width="2.2"/>
+    <path d="M600,26 L556,26 L544,14 L500,14" fill="none" stroke="#1d4a6b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="500" cy="14" r="4.4" fill="#0a1826" stroke="#1d4a6b" stroke-width="2.2"/>
+  </g>
+  <rect x="24" y="45" width="140" height="140" rx="18" fill="#07121c" stroke="#5fd4ea" stroke-opacity="0.4"/>
+  <g fill="none" stroke="#5fd4ea" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><rect x="74" y="88" width="40" height="40" rx="4"/><rect x="34" y="97" width="34" height="22" rx="3"/><line x1="51" y1="97" x2="51" y2="119"/><rect x="120" y="97" width="34" height="22" rx="3"/><line x1="137" y1="97" x2="137" y2="119"/><line x1="68" y1="108" x2="74" y2="108"/><line x1="114" y1="108" x2="120" y2="108"/><line x1="104" y1="88" x2="118" y2="68"/><path d="M38,152 Q94,182 150,152" stroke-dasharray="3 7"/></g><circle cx="118" cy="68" r="3.5" fill="#5fd4ea"/><circle cx="94" cy="108" r="5" fill="#5fd4ea"/><circle cx="46" cy="70" r="2" fill="#5fd4ea"/><circle cx="146" cy="78" r="1.6" fill="#5fd4ea"/><circle cx="66" cy="60" r="1.4" fill="#5fd4ea"/>
+  <text x="188" y="58" font-size="13" font-weight="700" letter-spacing="1.8" fill="#5fd4ea">CUBESAT FLIGHT SOFTWARE</text>
+  <text x="188" y="96" font-size="30" font-weight="800" fill="#ffffff">IntelliSat</text>
+  <text x="188" y="128" font-size="17.5" fill="#c5d6e4">Flight software for our club's CubeSat.</text><text x="188" y="152" font-size="17.5" fill="#c5d6e4">My C monitor streams 50 sensor</text><text x="188" y="176" font-size="17.5" fill="#c5d6e4">channels over UART.</text>
+</svg>

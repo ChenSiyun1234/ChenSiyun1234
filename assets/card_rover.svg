@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 230" width="600" height="230" role="img" aria-label="Rover drivebase">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1826"/>
+      <stop offset="1" stop-color="#123049"/>
+    </linearGradient>
+    <clipPath id="frame"><rect x="1" y="1" width="598" height="228" rx="18"/></clipPath>
+    <style>text { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }</style>
+  </defs>
+  <rect x="1" y="1" width="598" height="228" rx="18" fill="url(#bg)" stroke="#234a66"/>
+  <g clip-path="url(#frame)">
+    <path d="M600,196 L520,196 L502,214 L440,214" fill="none" stroke="#1d4a6b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="440" cy="214" r="4.4" fill="#0a1826" stroke="#1d4a6b" stroke-width="2.2"/>
+    <path d="M600,26 L556,26 L544,14 L500,14" fill="none" stroke="#1d4a6b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="500" cy="14" r="4.4" fill="#0a1826" stroke="#1d4a6b" stroke-width="2.2"/>
+  </g>
+  <rect x="24" y="45" width="140" height="140" rx="18" fill="#07121c" stroke="#ff9d5c" stroke-opacity="0.4"/>
+  <g fill="none" stroke="#ff9d5c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="50" cy="154" r="13"/><circle cx="94" cy="154" r="13"/><circle cx="138" cy="154" r="13"/><path d="M50,154 L72,124 L94,154"/><path d="M72,124 L104,108 L138,154"/><rect x="66" y="80" width="68" height="28" rx="6"/><line x1="120" y1="80" x2="120" y2="62"/><rect x="110" y="52" width="22" height="10" rx="3"/><line x1="32" y1="170" x2="156" y2="170" stroke-opacity="0.45"/></g><circle cx="50" cy="154" r="3" fill="#ff9d5c"/><circle cx="94" cy="154" r="3" fill="#ff9d5c"/><circle cx="138" cy="154" r="3" fill="#ff9d5c"/>
+  <text x="188" y="58" font-size="13" font-weight="700" letter-spacing="1.8" fill="#ff9d5c">ROVER</text>
+  <text x="188" y="96" font-size="30" font-weight="800" fill="#ffffff">Rover drivebase</text>
+  <text x="188" y="128" font-size="17.5" fill="#c5d6e4">Six-wheel rocker-bogie rover in MuJoCo:</text><text x="188" y="152" font-size="17.5" fill="#c5d6e4">wheel control, suspension and</text><text x="188" y="176" font-size="17.5" fill="#c5d6e4">electrical limits.</text>
+</svg>

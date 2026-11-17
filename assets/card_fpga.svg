@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 230" width="600" height="230" role="img" aria-label="Matrix accelerator">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1826"/>
+      <stop offset="1" stop-color="#123049"/>
+    </linearGradient>
+    <clipPath id="frame"><rect x="1" y="1" width="598" height="228" rx="18"/></clipPath>
+    <style>text { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }</style>
+  </defs>
+  <rect x="1" y="1" width="598" height="228" rx="18" fill="url(#bg)" stroke="#234a66"/>
+  <g clip-path="url(#frame)">
+    <path d="M600,196 L520,196 L502,214 L440,214" fill="none" stroke="#1d4a6b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="440" cy="214" r="4.4" fill="#0a1826" stroke="#1d4a6b" stroke-width="2.2"/>
+    <path d="M600,26 L556,26 L544,14 L500,14" fill="none" stroke="#1d4a6b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="500" cy="14" r="4.4" fill="#0a1826" stroke="#1d4a6b" stroke-width="2.2"/>
+  </g>
+  <rect x="24" y="45" width="140" height="140" rx="18" fill="#07121c" stroke="#b79cff" stroke-opacity="0.4"/>
+  <g fill="none" stroke="#b79cff" stroke-width="3" stroke-linecap="round"><rect x="56" y="77" width="76" height="76" rx="7"/><line x1="67.0" y1="64" x2="67.0" y2="77"/><line x1="67.0" y1="153" x2="67.0" y2="166"/><line x1="43" y1="88.0" x2="56" y2="88.0"/><line x1="132" y1="88.0" x2="145" y2="88.0"/><line x1="80.5" y1="64" x2="80.5" y2="77"/><line x1="80.5" y1="153" x2="80.5" y2="166"/><line x1="43" y1="101.5" x2="56" y2="101.5"/><line x1="132" y1="101.5" x2="145" y2="101.5"/><line x1="94.0" y1="64" x2="94.0" y2="77"/><line x1="94.0" y1="153" x2="94.0" y2="166"/><line x1="43" y1="115.0" x2="56" y2="115.0"/><line x1="132" y1="115.0" x2="145" y2="115.0"/><line x1="107.5" y1="64" x2="107.5" y2="77"/><line x1="107.5" y1="153" x2="107.5" y2="166"/><line x1="43" y1="128.5" x2="56" y2="128.5"/><line x1="132" y1="128.5" x2="145" y2="128.5"/><line x1="121.0" y1="64" x2="121.0" y2="77"/><line x1="121.0" y1="153" x2="121.0" y2="166"/><line x1="43" y1="142.0" x2="56" y2="142.0"/><line x1="132" y1="142.0" x2="145" y2="142.0"/></g><rect x="66" y="87" width="11" height="11" rx="2.5" fill="#b79cff" fill-opacity="1"/><rect x="81" y="87" width="11" height="11" rx="2.5" fill="#b79cff" fill-opacity="0.28"/><rect x="96" y="87" width="11" height="11" rx="2.5" fill="#b79cff" fill-opacity="1"/><rect x="111" y="87" width="11" height="11" rx="2.5" fill="#b79cff" fill-opacity="0.28"/><rect x="66" y="102" width="11" height="11" rx="2.5" fill="#b79cff" fill-opacity="0.28"/><rect x="81" y="102" width="11" height="11" rx="2.5" fill="#b79cff" fill-opacity="1"/><rect x="96" y="102" width="11" height="11" rx="2.5" fill="#b79cff" fill-opacity="0.28"/><rect x="111" y="102" width="11" height="11" rx="2.5" fill="#b79cff" fill-opacity="0.28"/><rect x="66" y="117" width="11" height="11" rx="2.5" fill="#b79cff" fill-opacity="0.28"/><rect x="81" y="117" width="11" height="11" rx="2.5" fill="#b79cff" fill-opacity="0.28"/><rect x="96" y="117" width="11" height="11" rx="2.5" fill="#b79cff" fill-opacity="1"/><rect x="111" y="117" width="11" height="11" rx="2.5" fill="#b79cff" fill-opacity="0.28"/><rect x="66" y="132" width="11" height="11" rx="2.5" fill="#b79cff" fill-opacity="0.28"/><rect x="81" y="132" width="11" height="11" rx="2.5" fill="#b79cff" fill-opacity="1"/><rect x="96" y="132" width="11" height="11" rx="2.5" fill="#b79cff" fill-opacity="0.28"/><rect x="111" y="132" width="11" height="11" rx="2.5" fill="#b79cff" fill-opacity="1"/>
+  <text x="188" y="58" font-size="13" font-weight="700" letter-spacing="1.8" fill="#b79cff">FPGA</text>
+  <text x="188" y="96" font-size="30" font-weight="800" fill="#ffffff">Matrix accelerator</text>
+  <text x="188" y="128" font-size="17.5" fill="#c5d6e4">Signed 8x8 matrix multiply in Verilog.</text><text x="188" y="152" font-size="17.5" fill="#c5d6e4">Four MAC units took it from 513</text><text x="188" y="176" font-size="17.5" fill="#c5d6e4">to 134 clock cycles.</text>
+</svg>
